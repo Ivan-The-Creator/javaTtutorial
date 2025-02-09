@@ -20,4 +20,9 @@ public class Car {
 		return "Current speed is 200 km/h";
 	}
 	
+	public String toString() {
+		String theString = make+"\n"+model+"\n"+color+"\n"+year;
+		return theString;
+	}
+	
 }
