@@ -10,4 +10,11 @@ public class CarClass extends Vehicle {
 		this.name = name;
 	}
 
+	@Override
+	void go() {
+		
+		System.out.println("The car is moving");
+		
+	}
+
 }
