@@ -11,7 +11,7 @@ public class CarClass extends Vehicle {
 	}
 
 	@Override
-	void go() {
+	public void go() {
 		
 		System.out.println("The car is moving");
 		

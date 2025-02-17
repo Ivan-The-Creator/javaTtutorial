@@ -4,7 +4,7 @@ public abstract class Vehicle {
 	
 	double speed;
 	
-	abstract void go ();
+	abstract public void go ();
 	
 	void stop () {
 		System.out.println("The vehicle is stopped");
