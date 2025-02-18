@@ -1,0 +1,4 @@
+The first text 
+The second string 
+And third
+this will add a message at the end of the file
