@@ -36,7 +36,7 @@ public class MyFrameTwo extends JFrame implements ActionListener {
 		button.setBackground(Color.DARK_GRAY);
 		button.setText("CLICK");
 		button.setFont(new Font("Arial",Font.BOLD,30));
-		button.setFocusable(false);
+		button.setFocusable(false); // remove a border around the text
 		button.setForeground(Color.white);
 		button.setBorder(BorderFactory.createEtchedBorder(EtchedBorder.RAISED));
 		//button.setEnabled(false);
