@@ -7,7 +7,7 @@ public class javaSwitches {
 		String day = "Wow";
 		
 		switch (day) {
-		
+			// break needs to pause the program
 			case "Sunday": System.out.println("It's Sunday");
 			break;
 			case "Monday": System.out.println("It's Monday");
